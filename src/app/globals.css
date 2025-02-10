@@ -9,8 +9,8 @@
 
 * {
   font-family: var(--font-inter), sans-serif;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -26,7 +26,7 @@ h1 {
 
 
 h2 {
-  @apply text-[1.75rem] md:text-[2.75rem] lg:text-[4rem] -tracking-[0.04em] leading-[1.071] md:leading-[1] lg:leading-[.9375];
+  @apply text-[1.75rem] md:text-[2.75rem] lg:text-[4rem] -tracking-[0.04em] leading-[1.071] md:leading-[1] lg:leading-[.9375]
 }
 
 h3 {
@@ -34,7 +34,7 @@ h3 {
 }
 
 p {
-  @apply text-[0.875rem] font-medium lg:text-[1.125rem] leading-[1.2]
+  @apply text-[0.875rem] lg:text-[1.125rem] leading-[1.2] font-normal
 }
 
 .italic-ivy-presto {
