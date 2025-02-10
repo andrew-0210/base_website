@@ -4,11 +4,11 @@ import { Inter } from 'next/font/google';
 export const ivy_presto = localFont({
   src: [
     {
-      path: './Ivy_Presto/ivy-presto-light.otf',
+      path: './Ivy_Presto/ivy-presto-thin.otf',
       weight: '300',
     },
     {
-      path: './Ivy_Presto/ivy-presto-thin.otf',
+      path: './Ivy_Presto/ivy-presto-light.otf',
       weight: '400',
     },
     {

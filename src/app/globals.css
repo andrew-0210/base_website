@@ -12,10 +12,28 @@
 }
 
 
-
-
 body {
   color: var(--foreground);
   background: var(--background);
+}
 
+h1 {
+  @apply lg:text-[4rem] leading-[1] -tracking-[0.03em] md:text-[2.75rem] text-[2rem]
+}
+
+
+h2 {
+  @apply text-[1.75rem] md:text-[2.75rem] lg:text-[4rem] -tracking-[0.04em] leading-[1.071] md:leading-[1] lg:leading-[.9375];
+}
+
+h3 {
+  @apply uppercase text-[0.75rem] lg:text-[0.875rem] font-normal
+}
+
+p {
+  @apply text-[0.875rem] font-medium lg:text-[1.125rem] leading-[1.2]
+}
+
+.italic-ivy-presto {
+  @apply font-[family-name:var(--font-ivy-presto)] italic font-normal
 }
