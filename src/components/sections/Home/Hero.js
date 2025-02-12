@@ -28,7 +28,7 @@ const Hero = () => {
       >
         Dream big, live simple.
       </motion.h1>
-      <div className="absolute bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent lg:h-dvh lg:w-dvw" />
+      <div className="absolute h-full w-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent" />
     </section>
   );
 };

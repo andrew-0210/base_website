@@ -2,7 +2,7 @@ const HeroBackground = () => {
   return (
     <>
       <video
-        className="hidden h-full w-full object-cover sm:block lg:object-fill"
+        className="hidden h-full w-full object-cover sm:block lg:object-cover xl:object-cover"
         preload="none"
         muted
         loop
@@ -13,7 +13,7 @@ const HeroBackground = () => {
         Your browser does not support the video tag.
       </video>
       <video
-        className="h-full w-dvw object-cover sm:hidden lg:object-fill"
+        className="h-full w-dvw object-cover sm:hidden lg:object-cover"
         preload="none"
         muted
         loop
