@@ -9,7 +9,7 @@ const HeroBackground = () => {
         autoPlay
         playsInline
       >
-        <source src="/videos/hero_background.mp4" type="video/mp4" />
+        <source src="/videos/hero-background-desktop.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <video
@@ -20,7 +20,7 @@ const HeroBackground = () => {
         autoPlay
         playsInline
       >
-        <source src="/videos/hero_background_mobile.mp4" type="video/mp4" />
+        <source src="/videos/hero-background-mobile.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </>
