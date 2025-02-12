@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <section className="relative flex h-[70vh] overflow-x-hidden lg:h-dvh">
-      <div className="fixed -z-30 h-full overflow-y-hidden lg:h-dvh lg:w-dvw">
+      <div className="fixed top-0 -z-30 h-full overflow-y-hidden lg:h-dvh lg:w-dvw">
         <HeroBackground />
       </div>
 
