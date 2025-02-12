@@ -40,3 +40,7 @@ p {
 .italic-ivy-presto {
   @apply font-[family-name:var(--font-ivy-presto)] italic font-normal
 }
+
+.section {
+  @apply bg-[#f5f5f5] h-dvh
+}

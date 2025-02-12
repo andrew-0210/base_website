@@ -1,7 +1,7 @@
 const WhatWeDo = () => {
   return (
-    <section className="mx-auto h-dvh px-[1rem] py-[2.5rem] md:max-w-[650px] lg:max-w-[1015px] lg:py-[6.25rem]">
-      <div className="flex flex-col items-center justify-start gap-[1.25rem] text-center lg:gap-[2.5rem]">
+    <section className="section">
+      <div className="mx-auto flex flex-col items-center justify-start gap-[1.25rem] px-[1rem] py-[2.5rem] text-center md:max-w-[650px] lg:max-w-[1015px] lg:gap-[2.5rem] lg:py-[6.25rem]">
         <h3>What we do</h3>
         <h2>
           Modular cabins for simple, sustainable{" "}
