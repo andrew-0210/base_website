@@ -17,7 +17,7 @@ const Hero = () => {
   if (!isClient) return null;
 
   return (
-    <section className="relative flex h-[70vh] overflow-x-hidden lg:h-dvh">
+    <section className="hero-section relative flex h-[70vh] overflow-x-hidden lg:h-dvh">
       <div className="fixed top-0 -z-30 h-full overflow-y-hidden lg:h-dvh lg:w-dvw">
         <HeroBackground />
       </div>

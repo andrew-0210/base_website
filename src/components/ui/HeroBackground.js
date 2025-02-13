@@ -24,7 +24,7 @@ const HeroBackground = () => {
         Your browser does not support the video tag.
       </video>
     </>
-  );
+  );``
 };
 
 export default HeroBackground;
