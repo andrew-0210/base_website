@@ -17,19 +17,19 @@ const Header = () => {
   }, []);
 
   // Update on Resize
-  useEffect(() => {
-    const handleResize = () => {
-      const heroSection = document.querySelector(".hero-section");
-      if (heroSection) {
-        setHeroHeight(heroSection.offsetHeight);
-      }
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     const heroSection = document.querySelector(".hero-section");
+  //     if (heroSection) {
+  //       setHeroHeight(heroSection.offsetHeight);
+  //     }
+  //   };
 
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  //   window.addEventListener("resize", handleResize);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
 
   // Detect Scroll Position
   useEffect(() => {
@@ -55,6 +55,7 @@ const Header = () => {
               alt="logo"
               fill={true}
               className="object-fill"
+              priority
             />
           </div>
           <div className="flex items-center gap-[2rem]">
