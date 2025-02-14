@@ -33,6 +33,10 @@ h2 {
 }
 
 h3 {
+  @apply text-[1.25rem] md:text-[2rem] lg:text-[3rem] -tracking-[0.03em] leading-[1]
+}
+
+h4 {
   @apply uppercase text-[0.75rem] lg:text-[0.875rem] font-normal
 }
 
@@ -45,5 +49,5 @@ p {
 }
 
 .section {
-  @apply bg-[#f5f5f5] h-dvh
+  @apply bg-[#f5f5f5] h-full px-[1rem] py-[2.5rem] lg:py-[6.25rem]
 }
