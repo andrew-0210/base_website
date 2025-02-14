@@ -46,7 +46,7 @@ const Header = () => {
   return (
     <header className="relative">
       <nav
-        className={`fixed left-0 top-0 z-30 w-full px-[1.25rem] py-[2rem] transition-colors duration-300 lg:px-[5rem]`}
+        className={`fixed left-0 top-0 z-30 w-full p-[1.25rem] transition-colors duration-300 lg:px-[5rem] lg:py-[2rem]`}
       >
         <div className="flex justify-between">
           <div className="relative h-[4rem] w-[7rem] md:w-[10rem]">
