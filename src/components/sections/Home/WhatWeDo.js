@@ -14,7 +14,7 @@ const WhatWeDo = () => {
           everyday to a space that is good for you and good for the planet.
         </p>
       </div>
-      <div className="relative mx-[1.25rem] h-dvh lg:mx-[5rem]">
+      <div className="relative h-[30vh] md:h-dvh lg:mx-[5rem]">
         <Image
           src="/images/featured.jpg"
           alt="featured_image"
@@ -22,7 +22,7 @@ const WhatWeDo = () => {
           className="h-full w-full rounded-2xl object-cover sm:block lg:object-cover xl:object-cover"
         />
       </div>
-      <div className="flex flex-col gap-3 px-[1.25rem] pt-[1.25rem] md:flex-row md:justify-between lg:px-[5rem]">
+      <div className="flex flex-col gap-3 pt-[1.25rem] md:flex-row md:justify-between lg:px-[5rem]">
         <h3>
           Your base camp,
           <br /> no matter your{" "}
