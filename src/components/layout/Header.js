@@ -49,7 +49,7 @@ const Header = () => {
         className={`fixed left-0 top-0 z-30 w-full px-[1.25rem] py-[2rem] transition-colors duration-300 lg:px-[5rem]`}
       >
         <div className="flex justify-between">
-          <div className="relative h-[4rem] w-[10rem]">
+          <div className="relative h-[4rem] w-[7rem] md:w-[10rem]">
             <Image
               src="/images/base_logo.svg"
               alt="logo"
@@ -60,7 +60,7 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-[2rem]">
             <Button
-              className={`p-[1rem] text-[0.875rem] font-medium transition-colors duration-300 ${
+              className={`px-[0.875rem] py-[0.75rem] text-[0.875rem] font-medium transition-colors duration-300 md:p-[1rem] ${
                 isScrolled
                   ? "bg-[#0a0a0a] text-[#f5f5f5] hover:bg-[#D63326]"
                   : "bg-[#f5f5f5] text-[#0a0a0a] hover:bg-[#0a0a0a] hover:text-[#f5f5f5]"
