@@ -44,8 +44,8 @@ p {
   @apply text-[0.875rem] lg:text-[1.125rem] leading-[1.2] font-normal
 }
 
-.italic-ivy-presto {
-  @apply font-[family-name:var(--font-ivy-presto)] italic font-normal
+.ivy-presto {
+  @apply font-[family-name:var(--font-ivy-presto)] font-normal
 }
 
 .section {

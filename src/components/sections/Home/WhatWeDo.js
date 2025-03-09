@@ -7,7 +7,7 @@ const WhatWeDo = () => {
         <h4>What we do</h4>
         <h2>
           Modular cabins for simple, sustainable{" "}
-          <span className="italic-ivy-presto">living</span>.
+          <span className="ivy-presto italic">living</span>.
         </h2>
         <p className="lg:max-w-[60%]">
           We produce high-performance, compact homes that let you escape the
@@ -26,7 +26,7 @@ const WhatWeDo = () => {
         <h3>
           Your base camp,
           <br /> no matter your{" "}
-          <span className="italic-ivy-presto">mountain</span> .
+          <span className="ivy-presto italic">mountain</span> .
         </h3>
         <p className="max-w-[600px]">
           Built to go virtually anywhere, our models are the starting and end
