@@ -51,7 +51,7 @@ const Header = () => {
         <div className="flex justify-between">
           <div className="relative h-[4rem] w-[7rem] md:w-[10rem]">
             <Image
-              src="/images/base_logo.svg"
+              src="/images/Skyline_Heights.svg"
               alt="logo"
               fill={true}
               className="object-fill"

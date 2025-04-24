@@ -24,7 +24,7 @@ const WhatWeDo = () => {
       </div>
       <div className="flex flex-col gap-3 pt-[1.25rem] md:flex-row md:justify-between lg:px-[5rem]">
         <h3>
-          Your base camp,
+          Your Skyline camp,
           <br /> no matter your{" "}
           <span className="ivy-presto italic">mountain</span> .
         </h3>

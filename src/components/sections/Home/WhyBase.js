@@ -11,12 +11,12 @@ const tabs = [
   {
     title: "Climate-resilient, natural materials",
     description:
-      "The Base Panel System sets itself apart by using only high-performance, natural and local materials like wood fiber and hemp insulation. The result is a shell of carbon neutral wall and roof panels.",
+      "The Skyline Heights Panel System sets itself apart by using only high-performance, natural and local materials like wood fiber and hemp insulation. The result is a shell of carbon neutral wall and roof panels.",
   },
   {
     title: "A home that adapts with you over time",
     description:
-      "With our evolutive Base Ecosystem, our homes have the ability to be expanded and upgraded. That means they can keep up with your evolving needs and budget.",
+      "With our evolutive Skyline Heights Ecosystem, our homes have the ability to be expanded and upgraded. That means they can keep up with your evolving needs and budget.",
   },
 ];
 
@@ -26,7 +26,7 @@ const WhyBase = () => {
   return (
     <section className="section flex flex-col items-center">
       <div className="mx-auto flex flex-col items-center justify-start gap-[1.25rem] pb-[1.25rem] text-center md:max-w-[650px] lg:max-w-[1015px] lg:gap-[2.5rem] lg:pb-[6.25rem]">
-        <h4>Why Base</h4>
+        <h4>Why Skyline Heights</h4>
         <h2>
           Built better and delivered faster for an all-in-one{" "}
           <span className="ivy-presto italic">escape</span>.
