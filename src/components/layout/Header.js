@@ -69,7 +69,7 @@ const Header = () => {
               Join the Waitlist
             </Button>
 
-            <div
+            {/* <div
               className={`hidden gap-[2rem] text-[0.875rem] font-medium decoration-from-font transition-colors duration-300 md:flex ${
                 isScrolled ? "text-[#0a0a0a]" : "text-[#f5f5f5]"
               }`}
@@ -77,7 +77,7 @@ const Header = () => {
               <Button className="uppercase hover:text-[#D63326] hover:underline">
                 Articles
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
