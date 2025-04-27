@@ -77,15 +77,6 @@ const Header = () => {
               <Button className="uppercase hover:text-[#D63326] hover:underline">
                 Articles
               </Button>
-              <div className="flex gap-1">
-                <Button className="uppercase hover:text-[#D63326] hover:underline">
-                  Fr
-                </Button>
-                <span>/</span>
-                <Button className="uppercase hover:text-[#D63326] hover:underline">
-                  En
-                </Button>
-              </div>
             </div>
           </div>
         </div>
